@@ -18,7 +18,6 @@ or
 ```html
 dinstagram https://www.instagram.com/p/BsMEFHRBClD/ birds
 ```
-sets downloaded file name 'birds'.
 
 <img src="https://media.giphy.com/media/8lGZNA9qXKK51JD1T8/giphy.gif" />
 
