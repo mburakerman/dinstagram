@@ -12,6 +12,13 @@
     "image",
     "video"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mburakerman/dinstagram.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mburakerman/dinstagram/issues"
+  },
   "author": "Mehmet Burak Erman",
   "license": "ISC",
   "dependencies": {
