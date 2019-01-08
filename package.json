@@ -1,0 +1,23 @@
+{
+  "name": "dinstagram",
+  "version": "1.0.0",
+  "description": "Easily download instagram images&videos with your terminal",
+  "main": "main.js",
+  "bin": {
+    "dinstagram": "main.js"
+  },
+  "keywords": [
+    "instagram",
+    "download",
+    "image",
+    "video"
+  ],
+  "author": "Mehmet Burak Erman",
+  "license": "ISC",
+  "dependencies": {
+    "jsdom": "^13.1.0",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "request": "^2.88.0"
+  }
+}
