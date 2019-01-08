@@ -13,7 +13,7 @@ easily download instagram images&amp;videos with your terminal
 ```html
 dinstagram https://www.instagram.com/p/BrBmyx_h9yy/
 ```
-or
+or you can set file name
 
 ```html
 dinstagram https://www.instagram.com/p/BsMEFHRBClD/ birds
