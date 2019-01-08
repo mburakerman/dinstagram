@@ -8,6 +8,7 @@ easily download instagram images&amp;videos with your terminal
 ## Usage
 > dinstagram  <(instagram-url)>  <(filename(optional))>
 
+
 ### Example Usage
 ```html
 dinstagram https://www.instagram.com/p/BrBmyx_h9yy/
@@ -18,3 +19,6 @@ or
 dinstagram https://www.instagram.com/p/BsMEFHRBClD/ birds
 ```
 sets downloaded file name 'birds'.
+
+<img src="https://media.giphy.com/media/8lGZNA9qXKK51JD1T8/giphy.gif" />
+
