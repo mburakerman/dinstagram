@@ -1,5 +1,5 @@
 # dinstagram
-Easily download instagram images&amp;videos with your terminal
+easily download instagram images&amp;videos with your terminal
 
 
 ## Install
