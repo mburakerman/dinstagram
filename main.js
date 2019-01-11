@@ -6,12 +6,16 @@ const jsdom = require("jsdom");
 const argv = require('minimist')(process.argv.slice(2));
 const ora = require('ora');
 
+
 var loader = ora('downloading...').start();
 var download = function (uri, filename, callback) {
     request.head(uri, function (err, res, body) {
         //console.log('content-type:', res.headers['content-type']);
-        //console.log('content-length:', res.headers['content-length']);
-        request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
+        request(uri).pipe(fs.createWriteStream(filename)).on('close', function () {
+            callback();
+            var fileSize = formatBytes(res.headers['content-length']);
+            console.log("size: " + fileSize);
+        });
     });
 };
 
@@ -58,3 +62,10 @@ request(argv._[0], function (error, response, body) {
         });
     }
 });
+
+function formatBytes(bytes) {
+    if (bytes < 1024) return bytes + " bytes";
+    else if (bytes < 1048576) return (bytes / 1024).toFixed(3) + " kB";
+    else if (bytes < 1073741824) return (bytes / 1048576).toFixed(3) + " mb";
+    else return (bytes / 1073741824).toFixed(3) + " gb";
+};
