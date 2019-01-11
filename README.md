@@ -10,8 +10,9 @@ npm i dinstagram -g
 [![NPM](https://nodei.co/npm/dinstagram.png?mini=true)](https://nodei.co/npm/dinstagram/)
 
 ## Usage
-> dinstagram  <(instagram-url)>  <(filename(optional))>
-
+```
+dinstagram  <(instagram-url)>  <(filename(optional))>
+```
 
 ### Example Usage
 ```
