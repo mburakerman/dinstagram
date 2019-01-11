@@ -1,9 +1,11 @@
 # dinstagram
-easily download instagram images&amp;videos with your terminal
+> easily download instagram images&amp;videos with your terminal
 
 
 ## Install
-> npm i dinstagram -g
+```
+npm i dinstagram -g
+```
 
 [![NPM](https://nodei.co/npm/dinstagram.png?mini=true)](https://nodei.co/npm/dinstagram/)
 
@@ -12,12 +14,12 @@ easily download instagram images&amp;videos with your terminal
 
 
 ### Example Usage
-```html
+```
 dinstagram https://www.instagram.com/p/BrBmyx_h9yy/
 ```
 or you can set file name
 
-```html
+```
 dinstagram https://www.instagram.com/p/BsMEFHRBClD/ birds
 ```
 
