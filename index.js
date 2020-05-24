@@ -27,7 +27,6 @@ request(instagramUrl, function (error, response, body) {
     // download images
     if (images.length > 0) {
         for (let i = 0; i < images.length; i++) {
-            console.log(i)
             downloadFile(images[i], setFileName(images[i]));
         }
     }
