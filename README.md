@@ -23,4 +23,9 @@ dinstagram https://www.instagram.com/p/CAYEaGsg8rh/
 
 you can download multiple images & videos from a post. video thumbnails included ✨
 
+### Python version
+you can check it from here: <a href="https://github.com/mburakerman/dinstagram-python">https://github.com/mburakerman/dinstagram-python</a>
+
+<br>
+
 <img src="https://media3.giphy.com/media/fuWjDmIoDp9PkdCdEm/giphy.gif" />
