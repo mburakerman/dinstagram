@@ -1,5 +1,5 @@
 # dinstagram
-> easily download instagram images&amp;videos with your terminal
+> easily download instagram images &amp; videos with your terminal
 
 
 ## Install
@@ -11,18 +11,17 @@ npm i dinstagram -g
 
 ## Usage
 ```
-dinstagram  <(instagram-url)>  <(filename(optional))>
+dinstagram  <(instagram-url)>
 ```
 
 ### Example Usage
 ```
-dinstagram https://www.instagram.com/p/BrBmyx_h9yy/
+dinstagram https://www.instagram.com/p/CAYEaGsg8rh/
 ```
-or you can set file name
 
-```
-dinstagram https://www.instagram.com/p/BsMEFHRBClD/ birds
-```
+### Features
+
+you can download multiple images & videos from a post. video thumbnails included ✨
 
 <img src="https://media.giphy.com/media/ygCFD48zIPbgWiaUcC/giphy.gif" />
 
