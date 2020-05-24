@@ -21,12 +21,13 @@ request(instagramUrl, function (error, response, body) {
     var videos = findKeys(responseJson, "video_url")
 
     // remove duplicates
-    Array.from(new Set(images));
-    Array.from(new Set(videos));
+    images = [...new Set(images)];
+    videos = [...new Set(videos)];
 
     // download images
     if (images.length > 0) {
         for (let i = 0; i < images.length; i++) {
+            console.log(i)
             downloadFile(images[i], setFileName(images[i]));
         }
     }
@@ -84,3 +85,4 @@ function formatBytes(bytes) {
     else if (bytes < 1073741824) return (bytes / 1048576).toFixed(3) + " mb";
     else return (bytes / 1073741824).toFixed(3) + " gb";
 };
+

@@ -1,6 +1,6 @@
 {
   "name": "dinstagram",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "easily download instagram images & videos with your terminal",
   "main": "index.js",
   "bin": {

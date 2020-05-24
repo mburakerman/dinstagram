@@ -22,4 +22,3 @@ dinstagram https://www.instagram.com/p/CAYEaGsg8rh/
 ### Features
 
 you can download multiple images & videos from a post. video thumbnails included ✨
-
